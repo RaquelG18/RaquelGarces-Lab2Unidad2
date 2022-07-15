@@ -13,4 +13,8 @@ if "base_RG_Juego" in dblist:
 else:
     print("La base de datos no existe")
 
+#consultamos los datos que se encuentran en la base de datos creada 
+datos_juego = baseDatos["datosJuego"]
 
+for datos in datos_juego.find():
+  print(datos)
