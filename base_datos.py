@@ -14,8 +14,8 @@ else:
     print("La base de datos no existe")
 
 #consultamos los datos que se encuentran en la base de datos creada 
-datos_juego = baseDatos["datosJuego"]
+datosjuego = baseDatos["datosJuego"]
 
 #condicion que nos permite encontrar los datos en la colección datosJuego
-for datos in datos_juego.find():
+for datos in datosjuego.find():
   print(datos)
